@@ -22,7 +22,7 @@ export const Hero = () => {
   const [buttonText, setButtonText] = useState('View Projects');
   const [editingElement, setEditingElement] = useState<'title' | 'subtitle' | 'button' | null>(null);
 
-  // Initial positions for elements
+
   const defaultElements: DraggableElement[] = [
     { id: 'title', type: 'title', defaultPosition: { x: 0, y: 0 }, position: { x: 0, y: 0 } },
     { id: 'subtitle', type: 'subtitle', defaultPosition: { x: 0, y: 0 }, position: { x: 0, y: 0 } },
