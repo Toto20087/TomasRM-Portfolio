@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom cursor styles */
+* {
+  cursor: none !important;
+}
+
+/* Ensure text selection works properly */
+::selection {
+  background: rgba(59, 130, 246, 0.5);
+  color: white;
+}
+
+/* Improve input interaction */
+input {
+  cursor: text !important;
+}
+
+/* Enable touch interactions */
+@media (hover: none) {
+  * {
+    cursor: auto !important;
+  }
+}
