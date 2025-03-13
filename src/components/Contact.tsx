@@ -86,7 +86,8 @@ export const Contact = () => {
                   <span>Email</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1k2KPCqmVtAgfwddQ0YXzvq4owaCcCcal/view?usp=sharing"
+                  target="_blank"
                   className="flex items-center justify-center gap-3 px-6 py-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors duration-300"
                 >
                   <FileText className="w-5 h-5" />
