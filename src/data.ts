@@ -23,6 +23,33 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: "Iphone 15 Pro Max",
+    description: "Iphone 15 Pro Max website clone",
+    category: "development",
+    image:
+      "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg",
+    technologies: ["React", "TypeScript", "JavaScript", "Tailwind CSS"],
+    link: "https://iphoneprowebsite.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Notion Clone",
+    description: "Notion Clone website",
+    category: "development",
+    image:
+      "https://mastermetrics.com/wp-content/uploads/2024/09/1Uz0Ax1Gk9Ju1a0qGSOIMqg.jpg",
+    technologies: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Tailwind CSS",
+      "Convex",
+      "Clerk",
+    ],
+    link: "https://note-taking-app-sepia.vercel.app/",
+  },
+  {
+    id: 4,
     title: "SuperHeroes Agency",
     description: "Complete brand website for a superhero agency",
     category: "design",
@@ -32,7 +59,7 @@ export const projects: Project[] = [
     link: "https://www.figma.com/proto/f5M2V9bhniiq1BY0ceC1iK/Benjamin-Longhi---Tomas-Moyano?page-id=298%3A4533&node-id=298-4534&p=f&viewport=363%2C643%2C0.1&t=oU0cUNABJt3VQIJI-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=298%3A4534",
   },
   {
-    id: 3,
+    id: 5,
     title: "Chipassimo Brand Guideline",
     description: "Complete brand guideline for a coffee brand",
     category: "design",
@@ -41,7 +68,7 @@ export const projects: Project[] = [
     link: "https://www.figma.com/proto/ZaaWNAfNbKFfDEqfQrquYu/Chipassimo-Brand-Guideline?page-id=0%3A1&node-id=1-39&viewport=757%2C211%2C0.03&t=GAj9e1HKnPsduVH1-1&scaling=min-zoom&content-scaling=fixed",
   },
   {
-    id: 4,
+    id: 6,
     title: "Corporate Videos",
     description: "Promotional videos for enterprise clients",
     category: "video",
